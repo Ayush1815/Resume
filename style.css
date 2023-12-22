@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 35px rgba(0, 0, 0, 0, 1);
+}
+.top
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(45deg, #241fb4,#8f1576);
+    padding: 50px;
+    
+}
+h2
+{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    letter-spacing: 0.1em;
+}
+h2 span
+{
+    font-size: 0.4em;
+    font-weight: 300;
+}
+.group
+{
+    position: relative;
+    display: grid;
+    gap: 30px;
+    width: 100%;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 20px;
+}
+.group .imgg
+{
+    position: relative;
+    width: 100%;
+}
+.group .imggimg
+{
+    width: 100%;
+}
+.group p
+{
+    color: #fff;
+    font-size: 1.05 ex;
+    margin-top: 10px;
+}
+.bottom
+{
+    position: relative;
+    display: grid;
+    margin: 50px 50px 0;
+    gap: 50px;
+    grid-template-columns: 2fr 3fr; 
+}
+.bottom .left_side
+{
+    margin-top: 30px;
+}
+h4
+{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #fff;
+    background: #403bda;
+    border-left: 8px solid #fab184;
+    font-weight: 500;
+    padding: 0 15px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.contactinfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.contactinfo li
+{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.linkk
+{
+    text-decoration: none;
+    color: #0d91d2;
+}
+.contactinfo .icon
+{
+    color: #231fbf;
+}
+.contactinfo .text
+{
+    color: #555;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.skills
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+.skills .skillsBox 
+{
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr;
+}
+.skills .skillsBox p
+{
+    color: #333;
+}
+.skills .skillsBox .value
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #eee;
+}
+.skills .skillsBox .value::before
+{
+    content: '';
+    position: absolute;
+    width: var(--i);
+    height: 100%;
+    background: #231fbf;
+}
+.right_side
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.edu_groupy 
+{
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.edu_groupz
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.edu_groupx 
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.edu_groupz 
+{
+    margin-top: 25px;
+}
+.edu_groupx p
+{
+    font-weight: 500;
+}
+.edu_groupy p
+{
+    font-weight: 500;
+}
+.edu_groupz p
+{
+    font-weight: 500;
+}
+.edu_groupx b
+{
+    font-weight: 600;
+    color: #231fbf;
+}
+.edu_groupy b
+{
+    font-weight: 600;
+    color: #231fbf;
+}
+.edu_groupz b
+{
+    font-weight: 600;
+    color: #231fbf;
+}
+
+.work2
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.work2 p
+{
+    font-weight: 500;
+}
+.work2 b
+{
+    font-weight: 600;
+    color: #231fbf;
+}
+.work2 li
+{
+    margin-left: -10px;
+    gap: 20px;
+}
+.proa
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+}
+.proa b
+{
+    font-weight: 700;
+    color: #231fbf;
+    margin-top: 10px;
+}
+.proa p
+{
+    font-weight: 500;
+    color: #4d47ff;
+}
+.pro1
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+}
+.pro1 b
+{
+    font-weight: 700;
+    color: #231fbf;
+    margin-top: 10px;
+}
+.pro1 p
+{
+    font-weight: 500;
+    color: #4d47ff;
+}
+.pro2
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+}
+.pro2 b
+{
+    font-weight: 700;
+    color: #231fbf;
+    margin-top: 10px;
+}
+.pro2 p
+{
+    font-weight: 500;
+    color: #4d47ff;
+}
+.pro3
+{
+    margin-top: 15px;
+    position: relative;
+    display: grid;
+}
+.pro3 b
+{
+    font-weight: 700;
+    color: #231fbf;
+    margin-top: 10px;
+}
+.pro3 p
+{
+    font-weight: 500;
+    color: #4d47ff;
+}
+.lang1
+{
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+
+}
+.lang1 b
+{
+    font-weight: 700;
+}
+.lang1 p
+{
+    font-weight: 500;
+    color: #231fbf;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.lang2
+{
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+
+}
+.lang2 b
+{
+    font-weight: 700;
+}
+.lang2 p
+{
+    font-weight: 500;
+    color: #231fbf;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.lang3
+{
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+
+}
+.lang3 b
+{
+    font-weight: 700;
+}
+.lang3 p
+{
+    font-weight: 500;
+    color: #231fbf;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.hobbies
+{
+    padding: 40px;
+    column-count: 2;
+}
+.hobbies ul
+{
+    display: flow-root;
+    gap: 5px;
+    justify-content: space-between;
+}
+.hobbies ul li
+{
+    font-weight: 500;
+    list-style: none;
+    color: #333;
+    width: calc(100%/1.15);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+    background: #f3f3f3;
+    text-align: center;
+    cursor: pointer;
+}
+.hobbies ul li i
+{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.hobbies ul li:hover
+{
+    background: #3c36e9;
+    color: #fff;
+}
